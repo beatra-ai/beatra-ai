@@ -44,6 +44,7 @@ Full catalog: [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skil
 - Website — https://beatra.ai
 - Docs — https://docs.beatra.ai
 - Console — https://console.beatra.ai
+- For AI agents — https://beatra.ai/llms.txt (index) · https://beatra.ai/llms-full.txt (every skill in one file)
 
 - WeChat mini program (mainland China) · 国内用户微信扫码使用
 
