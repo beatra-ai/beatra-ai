@@ -38,3 +38,13 @@ Beatra is an AI media generation platform; its Agent Skills run inside Claude Co
 - [xiaohongshu-copywriter-skill](https://github.com/beatra-ai/xiaohongshu-copywriter-skill) — Turn a product, experience, topic, or audience brief into Xiaohongshu title options, a readable note body, cover text, hashtags, and a natural comment starter, from inside Claude Code, Codex, or OpenClaw.
 
 Full catalog: [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills) — [beatra.ai](https://beatra.ai)
+
+## Links
+
+- Website — https://beatra.ai
+- Docs — https://docs.beatra.ai
+- Console — https://console.beatra.ai
+
+- WeChat mini program (mainland China) · 国内用户微信扫码使用
+
+<img src="assets/beatra-mini-program-qr.jpg" alt="Beatra WeChat mini program code" width="160">
