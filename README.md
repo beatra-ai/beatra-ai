@@ -42,6 +42,11 @@ Beatra is an AI media generation platform; its Agent Skills run inside Claude Co
 - [xiaohongshu-cover-maker-skill](https://github.com/beatra-ai/xiaohongshu-cover-maker-skill) — Turn a photo or a topic idea into a vertical 3:4 Xiaohongshu cover with a clean background, a bold focal point, and text-safe areas for beauty, food, fashion, and lifestyle notes, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 - [xiaohongshu-copywriter-skill](https://github.com/beatra-ai/xiaohongshu-copywriter-skill) — Turn a product, experience, topic, or audience brief into Xiaohongshu title options, a readable note body, cover text, hashtags, and a natural comment starter, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
+## Prompt libraries
+
+- [Awesome Qwen Image 3.0](https://github.com/beatra-ai/awesome-qwen-image-3) — Real Qwen Image 3.0 cases, with the full prompt on every card, ready to reproduce in your agent.
+- [Awesome Wan 3.0 Video](https://github.com/beatra-ai/awesome-wan-3-video) — Real Wan 3.0 Video cases, with the full prompt on every card, ready to reproduce in your agent.
+
 Full catalog: [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills) — [beatra.ai](https://beatra.ai)
 
 ## Links
