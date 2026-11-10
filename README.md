@@ -1,10 +1,21 @@
 # Beatra
 
-**Beatra (beatra.ai) is a creative runtime for AI agents: install one Agent Skill or connect the Beatra MCP server, describe what you want, and your agent generates images, video, music, and speech, and looks up public social data — all billed from one credit balance.**
+Beatra (beatra.ai) is a creative runtime for AI agents: install one Agent Skill or connect the Beatra MCP server, describe what you want, and your agent generates images, video, music, and speech, and looks up public social data — all billed from one credit balance.
 
-给你正在用的 AI 智能体加上图片、视频、音乐和配音：装一个 Skill（或接入 Beatra MCP），说清楚想要什么，Beatra 就会帮你生成。国内用户请访问 [beatra.cn](https://www.beatra.cn/zh)。
+Beatra 是专为 AI 智能体打造的多媒体生成服务：通过 Agent Skill 或 MCP，让智能体直接生成图片、视频、音乐和配音，并查询公开社交数据。安装免费，生成按积分计费。
 
-いつものAIエージェントで、画像・動画・音楽・音声を。スキルを入れるか Beatra MCP を接続して、作りたいものを伝えれば Beatra が生成します。
+いつものコーディングエージェントで、AI の画像・動画・音楽・音声を。スキルを入れて作りたいものを伝えれば、Beatra が生成します。
+
+## Start here
+
+This account holds Beatra's official repositories: the catalog [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills) with every Beatra skill, 23 single-skill repositories under [Skills](#skills), and 2 [prompt libraries](#prompt-libraries) of real prompts and results for one model each.
+
+| You want | Start with |
+| --- | --- |
+| Images, video, music, and voice from one skill | [ai-media-generator-skill](https://github.com/beatra-ai/ai-media-generator-skill) |
+| A skill for one job, such as a logo, a poster, or a voiceover | Its repository under [Skills](#skills) |
+| Every Beatra skill in one place | [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills) |
+| Real prompts and results for one model | A list under [Prompt libraries](#prompt-libraries) |
 
 ```bash
 npx skills add beatra-ai/ai-media-generator-skill
@@ -13,15 +24,7 @@ npx skills add beatra-ai/ai-media-generator-skill
 Then ask your agent: *"Turn this product photo into a 5-second clip with a slow push-in."*
 
 > [!NOTE]
-> Every skill is free to install; rendering uses Beatra credits. Works with Claude Code, Cursor, Codex, Windsurf, Cline, OpenClaw, and WorkBuddy, plus any MCP client.
-
-### Connect over MCP
-
-| | |
-| --- | --- |
-| Remote MCP endpoint | `https://mcp.beatra.ai/mcp` (streamable HTTP, Beatra sign-in token) |
-| Official MCP Registry | [`ai.beatra/beatra`](https://registry.modelcontextprotocol.io/v0/servers?search=beatra) |
-| REST / OpenAPI | [docs.beatra.ai](https://docs.beatra.ai/?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai) |
+> Every skill is free to install; rendering uses Beatra credits. Works with Claude Code, Cursor, Codex, Windsurf, Cline, and OpenClaw.
 
 ## Prompt libraries
 
@@ -92,25 +95,11 @@ Full catalog: [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skil
 **Understanding** — MiniMax M3
 </details>
 
-## FAQ
-
-**What is Beatra?** A hosted generation service built for AI agents. Agent Skills (SKILL.md) and an OAuth MCP server let Claude Code, Cursor, Codex, and other agents create images, video, music, and speech without leaving the chat.
-
-**Which models does Beatra use?** 27 models across image, video, music, and voice — including Seedance 2.0/2.5, Wan 3.0 Video, Qwen Image 3.0, GPT Image 2, Suno 6, and MiniMax Speech 2.8 (full list above).
-
-**Is it free?** Installing any skill is free and open source (MIT-0). Generation consumes Beatra credits; see [pricing](https://beatra.ai/en/pricing?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai).
-
-**Does it work in mainland China?** Yes — use [www.beatra.cn](https://www.beatra.cn/zh), the WeChat mini program, or install from SkillHub / WorkBuddy.
-
-**Beatra 是什么？** 专为 AI 智能体打造的多媒体生成服务：通过 Agent Skill 或 MCP，让 Claude Code、Cursor、Codex、WorkBuddy 等直接生成图片、视频、音乐和配音。安装免费，生成按积分计费。
-
 ## Links
 
 - Website — [beatra.ai](https://beatra.ai/?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai)
 - Docs — [docs.beatra.ai](https://docs.beatra.ai/?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai)
-- 中国大陆官网 — [www.beatra.cn](https://www.beatra.cn/zh?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai)
 - Console — [console.beatra.ai](https://console.beatra.ai)
-- MCP — `https://mcp.beatra.ai/mcp` · Registry `ai.beatra/beatra`
 - For AI agents — [llms.txt](https://beatra.ai/llms.txt) (index) · [llms-full.txt](https://beatra.ai/llms-full.txt) (every skill in one file)
 
 - WeChat mini program (mainland China) · 国内用户微信扫码使用
