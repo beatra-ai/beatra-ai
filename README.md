@@ -16,6 +16,7 @@ This account holds Beatra's official repositories: the catalog [beatra-ai/beatra
 | A skill for one job, such as a logo, a poster, or a voiceover | Its repository under [Skills](#skills) |
 | Every Beatra skill in one place | [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills) |
 | Real prompts and results for one model | A list under [Prompt libraries](#prompt-libraries) |
+| Connect an MCP host directly (standard OAuth) | [MCP server](#mcp-server) |
 
 ```bash
 npx skills add beatra-ai/ai-media-generator-skill
@@ -78,6 +79,14 @@ Then ask your agent: *"Turn this product photo into a 5-second clip with a slow 
 | [xiaohongshu-copywriter-skill](https://github.com/beatra-ai/xiaohongshu-copywriter-skill) | Turn a product, experience, topic, or audience brief into Xiaohongshu title options, a readable note body, cover text, hashtags, and a natural comment starter. |
 
 Full catalog: [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills) — every Beatra skill in one repository.
+
+## MCP server
+
+Connect MCP hosts directly to `https://mcp.beatra.ai/mcp` (streamable HTTP, Official MCP Registry `ai.beatra/beatra`). Hosts with browser sign-in approve once in the browser with standard MCP OAuth; headless environments use the [connect command](https://docs.beatra.ai/en/docs/agent-connect?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai) (device authorization).
+
+```bash
+claude mcp add --transport http beatra https://mcp.beatra.ai/mcp
+```
 
 ## Models
 
