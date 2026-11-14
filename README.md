@@ -4,7 +4,7 @@ Beatra (beatra.ai) is a creative runtime for AI agents: install one Agent Skill 
 
 Beatra 是专为 AI 智能体打造的多媒体生成服务：通过 Agent Skill 或 MCP，让智能体直接生成图片、视频、音乐和配音，并查询公开社交数据。安装免费，生成按积分计费。
 
-いつものコーディングエージェントで、AI の画像・動画・音楽・音声を。スキルを入れて作りたいものを伝えれば、Beatra が生成します。
+Beatra は AI Agent のためのクリエイティブ実行基盤です。Agent Skill を 1 つインストールするか Beatra MCP サーバーに接続して、作りたいものを伝えると、Agent が画像・動画・音楽・音声を生成し、公開ソーシャルデータを検索します。料金はすべて 1 つのクレジット残高から差し引かれます。
 
 ## Start here
 
@@ -91,23 +91,23 @@ claude mcp add --transport http beatra https://mcp.beatra.ai/mcp
 ## Models
 
 <details>
-<summary>Models (27) — image, video, music, voice, understanding</summary>
+<summary>Models (30) — image, video, music, voice, understanding</summary>
 
-**Image** — Qwen Image 2.0 Fast, Qwen Image 3.0, Qwen Image 3.0 Pro, GPT Image 2.5 Flare, GPT Image 2.5 Sunburst, GPT Image 2, Wan Image 2.7 Fast, Qwen Image 2.0 Pro, Wan Image 2.7 Pro, MiniMax Image 01 Live
+**Image** — Qwen Image 3.0, MiniMax H3 Image, Qwen Image 2.0 Fast, Qwen Image 3.0 Pro, GPT Image 2.5 Flare, GPT Image 2.5 Sunburst, GPT Image 2, Wan Image 2.7 Fast, Qwen Image 2.0 Pro, Wan Image 2.7 Pro
 
-**Video** — Seedance 2.0 Mini, Wan 2.7, Wan 3.0 Video, MiniMax H3, HappyHorse 1.1, Seedance 2.0 Fast, Seedance 2.0, Wan 3.0 Video Prime, Seedance 2.5, Wan 2.7 Video Edit, HappyHorse 1.0 Video Edit
+**Video** — Wan 3.0 Video, Seedance 2.0 Mini, Wan 2.7, MiniMax H3, HappyHorse 1.1, Seedance 2.0 Fast, Seedance 2.0, Wan 3.0 Video Prime, Seedance 2.5, Wan 2.7 Video Edit, HappyHorse 1.0 Video Edit
 
 **Music** — Suno 6, MiniMax Music 3.0
 
-**Voice** — MiniMax Speech 2.8 HD, MiniMax Speech 2.8 Turbo, MiniMax Voice Clone
+**Voice** — MiniMax Speech 2.8 HD, MiniMax Speech 2.8 Turbo, Doubao Seed TTS 2.0, ElevenLabs v4 Turbo, ElevenLabs v4, MiniMax Voice Clone
 
 **Understanding** — MiniMax M3
 </details>
 
 ## Links
 
-- Website — [beatra.ai](https://beatra.ai/?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai)
-- Docs — [docs.beatra.ai](https://docs.beatra.ai/?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai)
+- Website — [beatra.ai](https://beatra.ai/?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai) · [www.beatra.cn](https://www.beatra.cn/?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai) (China)
+- Docs — [docs.beatra.ai](https://docs.beatra.ai/?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai) · [docs.beatra.cn](https://docs.beatra.cn/?utm_source=github&utm_medium=profile&utm_campaign=beatra-ai)
 - Console — [console.beatra.ai](https://console.beatra.ai)
 - For AI agents — [llms.txt](https://beatra.ai/llms.txt) (index) · [llms-full.txt](https://beatra.ai/llms-full.txt) (every skill in one file)
 
